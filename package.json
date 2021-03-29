@@ -1,0 +1,29 @@
+{
+  "name": "testcafe-bugreplay",
+  "version": "1.0.0",
+  "description": "BugReplay's integration with the TestCafe automated e2e browser testing framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugReplay/testcafe-bugreplay.git"
+  },
+  "author": "BugReplay, Inc",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/BugReplay/testcafe-bugreplay/issues"
+  },
+  "homepage": "https://github.com/BugReplay/testcafe-bugreplay#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "bugreplay-automation": "^1.0.0",
+    "testcafe": "^1.13.0"
+  }
+}

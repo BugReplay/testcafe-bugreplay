@@ -4,7 +4,7 @@ The BugReplay TestCafe integration records screencasts of your automated TestCaf
 ## Installation
 Install the package
 
-    npm install test-cafe --save-dev
+    npm install testcafe-bugreplay --save-dev
 
 ## Configuration
 You will need to sign up for an account at https://bugreplay.com. After that you will need to login and get an API key by clicking the Hamburger Menu, click My Settings, and then Show API Key. You'll use this in the configuration file.
@@ -15,7 +15,7 @@ In .testcaferc.json you'll need to tell Chrome to use the BugReplay Automation e
     {
       "browsers": {
         "path": "/path/to/google-chrome",
-        "cmd": "--no-first-run --no-default-browser-check --user-data-dir=/tmp/testcafe-chrome-profile --load-extension=./node_modules/testcafe_bugreplay/node_modules/bugreplay-automation/extension/ --auto-select-desktop-capture-source='Chrome'"
+        "cmd": "--no-first-run --no-default-browser-check --user-data-dir=/tmp/testcafe-chrome-profile --load-extension=./node_modules/bugreplay-automation/extension/ --auto-select-desktop-capture-source='Chrome'"
       }
     }
 

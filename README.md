@@ -9,6 +9,11 @@ npm install testcafe-bugreplay --save-dev
 ```
 
 ## Configuration
+### Getting an API key
+You will need to sign up for an account at https://bugreplay.com. After that you will need to login and get an API key by clicking the Hamburger Menu, click My Settings, and then Show API Key. You'll use this in the configuration file.
+
+![getting an API key](./docs/assets/bugreplay_api_key.gif)
+
 
 ### Adding the BugReplay Integration
 In .testcaferc.json you'll need to tell Chrome to use the BugReplay Automation extension:

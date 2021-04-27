@@ -54,7 +54,7 @@ All tests in this file would be recorded to BugReplay.
 ### Running from Command Line
 You can run the test directly by running the following in your terminal:
 ```sh
-npx testcafe src/e2e-tests
+npx testcafe path/to/tests
 ```
 
 ### Setting up a script

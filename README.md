@@ -61,7 +61,6 @@ npx testcafe src/e2e-tests
 Inside of `package.json` add the following to the `scripts` object:
 ```json
 "scripts": {
-  // other tests
   "test:testcafe": "testcafe path/to/tests"
 }
 ```

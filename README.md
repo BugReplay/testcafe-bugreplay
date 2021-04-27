@@ -8,6 +8,12 @@ Install the package
 npm install testcafe-bugreplay --save-dev
 ```
 
+or if you prefer [yarn](https://yarnpkg.com/)
+
+```sh
+yarn add testcafe-bugreplay --dev
+```
+
 ## Configuration
 ### Getting an API key
 You will need to sign up for an account at https://bugreplay.com. After that you will need to login and get an API key by clicking the Hamburger Menu, click My Settings, and then Show API Key. You'll use this in the configuration file.

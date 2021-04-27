@@ -8,7 +8,7 @@ Install the package
 npm install testcafe-bugreplay --save-dev
 ```
 
-or if you prefer [yarn](https://yarnpkg.com/)
+or if you prefer to use [yarn](https://yarnpkg.com/)
 
 ```sh
 yarn add testcafe-bugreplay --dev
@@ -49,6 +49,34 @@ bugReplay(
 ```
 
 All tests in this file would be recorded to BugReplay.
+
+## Running the Test
+### Running from Command Line
+You can run the test directly by running the following in your terminal:
+```sh
+npx testcafe src/e2e-tests
+```
+
+### Setting up a script
+Inside of `package.json` add the following to the `scripts` object:
+```json
+"scripts": {
+  // other tests
+  "test:testcafe": "testcafe path/to/tests"
+}
+```
+You can name the script anything you'd like, it does not have to be `test:testcafe`.
+
+Then in your command line run:
+```sh
+npm run test:testcafe
+```
+
+or
+
+```sh
+yarn test:testcafe
+```
 
 ## Limitations
 This currently only works for Chrome. We're looking to expand to other browsers in the future.

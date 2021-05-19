@@ -1,6 +1,6 @@
 {
   "name": "testcafe-bugreplay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BugReplay's integration with the TestCafe automated e2e browser testing framework",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "bugreplay-automation": "^1.0.4",
+    "bugreplay-automation": "^1.0.5",
     "testcafe": "^1.13.0"
   }
 }

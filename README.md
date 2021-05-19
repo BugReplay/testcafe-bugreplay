@@ -77,5 +77,20 @@ or
 yarn test:testcafe
 ```
 
+### Note
+You may be presented with a window, to select a screen to capture, during your test run, something like this:
+![screen-capture](./docs/assets/select-screen-capture.png)
+
+If you see the above screen during your test run, please check the file: .testcaferc.json and check the flag: ```--auto-select-desktop-capture-source='Entire screen'```
+
+Here are few options you can try:
+
+  - In case you have an extended display connected, you can choose
+"Screen 1" or "Screen 2" depending on where your cypress test runner is running: 
+  ```--auto-select-desktop-capture-source='Screen 1' //or Screen 2```
+
+  - You can also provide the title of the browser window which testcafe launches while executing your tests. 
+  ```--auto-select-desktop-capture-source='<CHROME_WINDOW_TITLE>' //Check the share screen popup and look for the title of the window where your testcafe tests is running. ```
+
 ## Limitations
 This currently only works for Chrome. We're looking to expand to other browsers in the future.
